@@ -1,80 +1,29 @@
-*{
-    padding: 0;
+*, body, html {
     margin: 0;
+    padding: 0;
 }
 
-
-body{
-    font-family: "Arial" ;
-    margin: 0px;
-    padding: 0px;
-}
-
-header{
-    text-align: center;
-    width: 100%;
-    height: 500px;
-    background-color: rgb(190, 190, 190);
-}
-
-nav{
-    float: center;
-    line-height: 100px;
-}
-
-.carousel-slide{
-    /*float: center;*/
-    line-height: 100px;
-}
-
-.carousel-inner{
-    align-items: center;
-    align-content:center;
-    width: 850px;
-    height: 500px;
-    position: absolute;
-    top: 0%;
-    left: 17%;
-}
-.img{
-    align-items: center;
-    width:100px;
-    height:55px;
-}
-
-.container-fluid{
-    /*display: flex;*/
-    background-color: rgb(221, 221, 221);
+nav {
+    background-color: aqua;
 }
 
 .home{
-    /*display: flex;*/
+    display: flex;
     align-items: center;
-    align-content:center;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    top: 120%;
-    left: 45%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.carousel {
-    height:200px;
-    
-    }
-    .carousel-inner > .item > img {
-    
-    height:360px;
-    
-    object-fit: contain;
-    
-    }
-
-.carousel-control-prev{
-    top: 120%;
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
 }
 
-.carousel-control-next{
-    top: 120%;
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
